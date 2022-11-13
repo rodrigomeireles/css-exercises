@@ -1,0 +1,20 @@
+.impar {
+    font-family: Verdana, Dejavu Sans, sans-serif;
+    background-color: rgb(235, 111, 148);
+    color: black;
+    font-size: xx-large;
+}
+
+.maior {
+    font-size: 40px;
+}
+
+#idverde {
+    background-color: rgb(87, 158, 87);
+    font-weight: bold;
+}
+
+#idazul {
+    color: blue;
+    font-size: 60px;
+}
