@@ -1,0 +1,15 @@
+.preto,
+.amarelo {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', serif;
+}
+
+.preto {
+    background-color: black;
+    color: white;
+}
+
+.amarelo {
+    color: black;
+    background-color: yellow;
+}
