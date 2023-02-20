@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: #1f2937;
+    font-family: 'Comic Neue', cursive;
+}
+
+.hero {
+    display: flex;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+ul {
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* 
+img {
+    padding: 0;
+    border: 0;
+    width: 200px;
+    height: 150px;
+} */
