@@ -1,9 +1,15 @@
+@viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
 body {
     display: flex;
     flex-flow: column;
+    min-height: 100vh;
     background-color: #1f2937;
     font-family: 'Comic Neue', cursive;
-    flex: auto;
+    align-items: center stretch;
 }
 
 ul {
@@ -45,34 +51,38 @@ ul {
     justify-content: space-around;
     align-items: center;
     flex: auto;
+    padding: 100px;
 }
 
 .greeting {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-end;
+    flex: 0 1 auto;
     text-align: left;
     font-size: 18px;
     color: #e5e7eb;
-    width: 400px;
+    width: 200px;
     gap: 8px;
 }
 
 .greeting button {
+    flex: auto;
     background-color: #3882f6;
     width: 200px;
+    height: 50px;
     border: 0;
     border-radius: 5px;
 }
 
 .cow {
+    flex: auto;
     width: 300px;
     height: 300px;
 }
 
 .figure-container {
     display: flex;
-    flex: auto;
     flex-flow: column;
     justify-content: center;
     background-color: white;
@@ -81,7 +91,6 @@ ul {
 .gallery {
     flex: auto;
     display: flex;
-    /* align-items: center; */
 }
 
 .figure-container h1 {
@@ -91,9 +100,13 @@ ul {
 
 .gallery figure {
     flex: auto;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
+    display: table;
     border: 2px solid #3882f6;
     border-radius: 5px;
+}
+
+.gallery figcaption {
+    display: table-caption;
+    text-align: center;
+    caption-side: bottom;
 }
