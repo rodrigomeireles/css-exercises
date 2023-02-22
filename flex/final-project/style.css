@@ -91,6 +91,8 @@ ul {
 .gallery {
     flex: auto;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .figure-container h1 {
@@ -98,15 +100,18 @@ ul {
     color: #1f2937;
 }
 
-.gallery figure {
-    flex: auto;
-    display: table;
-    border: 2px solid #3882f6;
-    border-radius: 5px;
+.gallery .my-fig {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 8px;
 }
 
-.gallery figcaption {
-    display: table-caption;
-    text-align: center;
-    caption-side: bottom;
+.gallery img {
+    /* display: block; */
+    object-fit: cover;
+    border: 2px solid #3882f6;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
